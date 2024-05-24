@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="xl:text-[25px]">
+<html lang="en" class="xl:text-[19px] 2xl:text-[25px]">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="fonds.css" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="bg-[#f3f4fe] relative">
+  <body class="bg-[#f3f4fe] relative w-dvw overflow-x-hidden">
     <div class="w-[90%] m-auto">
       <nav class="mt-5 flex justify-between items-center mb-9">
         <img src="assets/logo-dark.svg" alt="logo" class="h-8" />
@@ -41,7 +41,7 @@
         </section>
         
         <section class=" md:flex-1">
-          <picture class="">
+          <picture class="md:absolute md:w-[60%] lg:w-[50%] md:-top-[3%] lg:-top-[6%] md:-right-[14%] md:-z-10">
             <source
               media="(max-width: 750px)"
               srcset="assets/image-hero-mobile.webp"
@@ -50,7 +50,7 @@
               media="(min-width: 750px)"
               srcset="assets/image-hero-desktop.webp"
             />
-            <img src="assets/image-hero-mobile.webp" alt="" class=" md:absolute md:w-[60%] lg:w-[50%] md:-top-[3%] lg:-top-[6%] md:-right-[14%] md:-z-10" />
+            <img src="assets/image-hero-mobile.webp" alt="" class="" />
           </picture>
           <img src="assets/image-hero-desktop.webp" alt="" class="opacity-0 hidden md:block">
         </section>
