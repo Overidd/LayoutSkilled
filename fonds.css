@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('/starter-code/assets/fonts/PlusJakartaSans-ExtraBold.ttf');
+
+@layer base {
+  .fontPlusJakartaSans {
+    font-family: PlusJakartaSans-ExtraBold;
+  }
+}
